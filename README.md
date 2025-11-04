@@ -233,8 +233,7 @@ Secara umum, struktur foldernya adalah sebagai berikut:
 Berikut beberapa file penting di dalamnya:
 - **`BaseController.java`**: Kelas dasar yang menjadi induk bagi controller lain, berisi fungsi umum seperti validasi input atau pengaturan koneksi awal.  
 - **`LoginController.java`**: Mengatur proses login untuk semua pengguna (Admin, Petani, Distributor).  
-- **`RegisterController.java`**: Menangani proses pendaftaran akun baru ke dalam database.  
-- **`adminController.java`**: Mengatur fitur-fitur khusus admin seperti kelola akun distributor dan petani.  
+- **`RegisterController.java`**: Menangani proses pendaftaran akun baru ke dalam database.   
 - **`distributorController.java`**: Mengatur aktivitas distributor seperti membuat permintaan hasil panen.  
 - **`hasilPanenController.java`**: Bertanggung jawab atas proses penambahan, pengeditan, dan penghapusan data hasil panen oleh petani.  
 - **`permintaanController.java`**: Mengatur data permintaan hasil panen dari distributor dan statusnya.  
